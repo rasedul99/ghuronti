@@ -16,6 +16,10 @@ module.exports = {
           200: "#19ABE3",
         },
       },
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
+      },
+
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
