@@ -4,7 +4,7 @@ import TicketOption from "./TicketOption";
 const Ticket = () => {
   return (
     <div>
-      <div className="bg-white flex rounded-t-[42px]">
+      <div className="bg-white flex flex-wrap rounded-t-[42px]">
         <TicketOption
           image="/assets/icons/tickets/haji.png"
           title="Haji & Umrah"

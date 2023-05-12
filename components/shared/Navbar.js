@@ -6,7 +6,7 @@ import { RxHamburgerMenu, RxCross2 } from "react-icons/rx";
 
 const Navbar = () => {
   return (
-    <nav className="bg-blue-100">
+    <nav className="bg-blue-100 sticky top-0 z-30">
       <div className="flex justify-between md:gap-x-[117px] items-center py-4  max-w-6xl mx-2 md:mx-auto">
         <div className="flex items-center gap-x-[60px]">
           <img src="/assets/logo.png" />
