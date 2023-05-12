@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <header className="pt-[17px] pb-5 bg-green-100 flex justify-center items-center gap-x-[27px] font-poppins text-primary">
+    <header className="pt-[17px] pb-5 bg-green-100 hidden md:flex justify-center items-center gap-x-[27px] font-poppins text-primary">
       <div className="flex gap-x-[6px] items-center ">
         <img src="/assets/icons/social/telephone.png" />
 
