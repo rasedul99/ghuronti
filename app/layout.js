@@ -10,7 +10,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="w-full h-[400px]   bg-[url('/assets/hero/bghero.png')] bg-no-repeat bg-center bg-cover ">
+      <body className="w-full h-[507px]   bg-[url('/assets/hero/bghero.png')] bg-no-repeat bg-center bg-cover ">
         <Header />
         <Navbar />
         {children}

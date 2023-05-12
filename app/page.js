@@ -1,10 +1,14 @@
+import Banner from "@/components/Banner";
 import Hero from "@/components/Hero/Hero";
+import Places from "@/components/Places/Places";
 import React from "react";
 
 const Home = () => {
   return (
-    <div>
+    <div className="max-w-[1105px] mx-auto">
       <Hero />
+      <Places />
+      <Banner />
     </div>
   );
 };
