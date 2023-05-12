@@ -1,5 +1,6 @@
 import Banner from "@/components/Banner";
 import Hero from "@/components/Hero/Hero";
+import International from "@/components/International/International";
 import Places from "@/components/Places/Places";
 import React from "react";
 
@@ -9,6 +10,7 @@ const Home = () => {
       <Hero />
       <Places />
       <Banner />
+      <International />
     </div>
   );
 };
