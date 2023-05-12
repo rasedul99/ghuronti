@@ -1,6 +1,7 @@
 import Banner from "@/components/Banner";
 import Hero from "@/components/Hero/Hero";
 import International from "@/components/International/International";
+import Mission from "@/components/Mission";
 import Places from "@/components/Places/Places";
 import React from "react";
 
@@ -11,6 +12,7 @@ const Home = () => {
       <Places />
       <Banner />
       <International />
+      <Mission />
     </div>
   );
 };
